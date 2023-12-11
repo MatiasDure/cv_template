@@ -1,0 +1,176 @@
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+#root {
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.cv
+{
+  background-color: white;
+  width: 210mm;
+  min-height: 297mm;
+}
+
+.header {
+  background-color: #0e374e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  gap: 10px;
+}
+
+.header h1 {
+  font-size: 1.8rem;
+}
+
+.header li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input_element {
+  background-color: #f3f4f6;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+form{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+textarea{
+  max-width: 392px;
+  min-width: 146px;
+  min-height: 38px;
+}
+
+section ul 
+{
+  flex-direction: column;
+}
+
+.form_group {
+  background-color: white;
+  width: 432px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.edit-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+section h3 
+{
+  background-color:  rgba(14,55,78,.07);
+  color:#0e374e;
+  height: 35px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cv section {
+  width: 694px;
+  margin: 50px auto;
+}
+
+section li {
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+  gap: 50px;
+}
+
+li div:first-of-type {
+  width: 134px;
+}
+
+p.date 
+{
+  white-space: nowrap;
+}
+
+p{
+  line-height: 28px;
+}
+
+button {
+  display: block;
+  margin: 40px 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
